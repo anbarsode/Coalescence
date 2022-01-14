@@ -23,6 +23,7 @@ Features
 4. Periodic boundary condition
 5. Oscillating Taylor Green vortices as background flow field
 
-Performance on 1 intel i5 CPU core: $$ T_{sim} = 0.216 N_{steps} \left( \frac{N_{particles}}{2000} \right)^2 \mathrm{\ s}$$  
+Performance on 1 intel i5 CPU core:  
+<p align="center"> <img src="https://render.githubusercontent.com/render/math?math=T_{sim} = 0.216 N_{steps} \left( \frac{N_{particles}}{2000} \right)^2 \mathrm{\ s}"></p>  
 
 The `Vector3D.cpp` and `Particle.cpp` classes contain tools to handle vector algebra and spherical particles' collisions and mergers. You are welcome to use these in your own simulations.  
